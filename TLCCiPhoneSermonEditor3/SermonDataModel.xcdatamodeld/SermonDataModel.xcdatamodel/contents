@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12D78" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Sermon" syncable="YES">
+        <attribute name="audiourl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mainPreacher" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mainscripturebook" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mainscripturepassage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sermondate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sermondescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sermontitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videourl" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="sermonstoseries" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SermonSeries" inverseName="seriestosermon" inverseEntity="SermonSeries" syncable="YES"/>
+    </entity>
+    <entity name="SermonSeries" syncable="YES">
+        <attribute name="seriesname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sermonseriesimageurl" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="seriestosermon" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Sermon" inverseName="sermonstoseries" inverseEntity="Sermon" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Sermon" positionX="556" positionY="126" width="128" height="178"/>
+        <element name="SermonSeries" positionX="306" positionY="126" width="128" height="88"/>
+    </elements>
+</model>

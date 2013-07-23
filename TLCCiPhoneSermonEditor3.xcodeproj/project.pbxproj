@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48893E36179E0F41002DDA52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48893E35179E0F41002DDA52 /* UIKit.framework */; };
+		48893E38179E0F41002DDA52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48893E37179E0F41002DDA52 /* Foundation.framework */; };
+		48893E3A179E0F41002DDA52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48893E39179E0F41002DDA52 /* CoreGraphics.framework */; };
+		48893E3C179E0F41002DDA52 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48893E3B179E0F41002DDA52 /* CoreData.framework */; };
+		48893E42179E0F41002DDA52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48893E40179E0F41002DDA52 /* InfoPlist.strings */; };
+		48893E44179E0F41002DDA52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48893E43179E0F41002DDA52 /* main.m */; };
+		48893E48179E0F41002DDA52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48893E47179E0F41002DDA52 /* AppDelegate.m */; };
+		48893E4A179E0F41002DDA52 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 48893E49179E0F41002DDA52 /* Default.png */; };
+		48893E4C179E0F41002DDA52 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48893E4B179E0F41002DDA52 /* Default@2x.png */; };
+		48893E4E179E0F41002DDA52 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48893E4D179E0F41002DDA52 /* Default-568h@2x.png */; };
+		48893E51179E0F41002DDA52 /* TLCCiPhoneSermonEditor3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48893E4F179E0F41002DDA52 /* TLCCiPhoneSermonEditor3.xcdatamodeld */; };
+		48893E5F179E0F7E002DDA52 /* SermonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48893E58179E0F7E002DDA52 /* SermonListViewController.m */; };
+		48893E60179E0F7E002DDA52 /* SermonSeriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48893E5A179E0F7E002DDA52 /* SermonSeriesTableViewController.m */; };
+		48893E61179E0F7E002DDA52 /* SermonSeriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48893E5C179E0F7E002DDA52 /* SermonSeriesViewController.m */; };
+		48893E62179E0F7E002DDA52 /* SermonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48893E5E179E0F7E002DDA52 /* SermonViewController.m */; };
+		48893E64179E1057002DDA52 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48893E63179E1057002DDA52 /* MainStoryboard.storyboard */; };
+		48893E67179E1421002DDA52 /* SermonDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48893E65179E1421002DDA52 /* SermonDataModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48893E32179E0F41002DDA52 /* TLCCiPhoneSermonEditor3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLCCiPhoneSermonEditor3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48893E35179E0F41002DDA52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48893E37179E0F41002DDA52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48893E39179E0F41002DDA52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48893E3B179E0F41002DDA52 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		48893E3F179E0F41002DDA52 /* TLCCiPhoneSermonEditor3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TLCCiPhoneSermonEditor3-Info.plist"; sourceTree = "<group>"; };
+		48893E41179E0F41002DDA52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48893E43179E0F41002DDA52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48893E45179E0F41002DDA52 /* TLCCiPhoneSermonEditor3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TLCCiPhoneSermonEditor3-Prefix.pch"; sourceTree = "<group>"; };
+		48893E46179E0F41002DDA52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48893E47179E0F41002DDA52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48893E49179E0F41002DDA52 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		48893E4B179E0F41002DDA52 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		48893E4D179E0F41002DDA52 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		48893E50179E0F41002DDA52 /* TLCCiPhoneSermonEditor3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TLCCiPhoneSermonEditor3.xcdatamodel; sourceTree = "<group>"; };
+		48893E57179E0F7E002DDA52 /* SermonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SermonListViewController.h; sourceTree = "<group>"; };
+		48893E58179E0F7E002DDA52 /* SermonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SermonListViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		48893E59179E0F7E002DDA52 /* SermonSeriesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SermonSeriesTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		48893E5A179E0F7E002DDA52 /* SermonSeriesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SermonSeriesTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		48893E5B179E0F7E002DDA52 /* SermonSeriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SermonSeriesViewController.h; sourceTree = "<group>"; };
+		48893E5C179E0F7E002DDA52 /* SermonSeriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SermonSeriesViewController.m; sourceTree = "<group>"; };
+		48893E5D179E0F7E002DDA52 /* SermonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SermonViewController.h; sourceTree = "<group>"; };
+		48893E5E179E0F7E002DDA52 /* SermonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SermonViewController.m; sourceTree = "<group>"; };
+		48893E63179E1057002DDA52 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		48893E66179E1421002DDA52 /* SermonDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SermonDataModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48893E2F179E0F41002DDA52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48893E36179E0F41002DDA52 /* UIKit.framework in Frameworks */,
+				48893E38179E0F41002DDA52 /* Foundation.framework in Frameworks */,
+				48893E3A179E0F41002DDA52 /* CoreGraphics.framework in Frameworks */,
+				48893E3C179E0F41002DDA52 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48893E29179E0F41002DDA52 = {
+			isa = PBXGroup;
+			children = (
+				48893E3D179E0F41002DDA52 /* TLCCiPhoneSermonEditor3 */,
+				48893E34179E0F41002DDA52 /* Frameworks */,
+				48893E33179E0F41002DDA52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48893E33179E0F41002DDA52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48893E32179E0F41002DDA52 /* TLCCiPhoneSermonEditor3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48893E34179E0F41002DDA52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48893E35179E0F41002DDA52 /* UIKit.framework */,
+				48893E37179E0F41002DDA52 /* Foundation.framework */,
+				48893E39179E0F41002DDA52 /* CoreGraphics.framework */,
+				48893E3B179E0F41002DDA52 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48893E3D179E0F41002DDA52 /* TLCCiPhoneSermonEditor3 */ = {
+			isa = PBXGroup;
+			children = (
+				48893E46179E0F41002DDA52 /* AppDelegate.h */,
+				48893E47179E0F41002DDA52 /* AppDelegate.m */,
+				48893E63179E1057002DDA52 /* MainStoryboard.storyboard */,
+				48893E57179E0F7E002DDA52 /* SermonListViewController.h */,
+				48893E58179E0F7E002DDA52 /* SermonListViewController.m */,
+				48893E59179E0F7E002DDA52 /* SermonSeriesTableViewController.h */,
+				48893E5A179E0F7E002DDA52 /* SermonSeriesTableViewController.m */,
+				48893E5B179E0F7E002DDA52 /* SermonSeriesViewController.h */,
+				48893E5C179E0F7E002DDA52 /* SermonSeriesViewController.m */,
+				48893E5D179E0F7E002DDA52 /* SermonViewController.h */,
+				48893E5E179E0F7E002DDA52 /* SermonViewController.m */,
+				48893E65179E1421002DDA52 /* SermonDataModel.xcdatamodeld */,
+				48893E4F179E0F41002DDA52 /* TLCCiPhoneSermonEditor3.xcdatamodeld */,
+				48893E3E179E0F41002DDA52 /* Supporting Files */,
+			);
+			path = TLCCiPhoneSermonEditor3;
+			sourceTree = "<group>";
+		};
+		48893E3E179E0F41002DDA52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48893E3F179E0F41002DDA52 /* TLCCiPhoneSermonEditor3-Info.plist */,
+				48893E40179E0F41002DDA52 /* InfoPlist.strings */,
+				48893E43179E0F41002DDA52 /* main.m */,
+				48893E45179E0F41002DDA52 /* TLCCiPhoneSermonEditor3-Prefix.pch */,
+				48893E49179E0F41002DDA52 /* Default.png */,
+				48893E4B179E0F41002DDA52 /* Default@2x.png */,
+				48893E4D179E0F41002DDA52 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48893E31179E0F41002DDA52 /* TLCCiPhoneSermonEditor3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48893E54179E0F41002DDA52 /* Build configuration list for PBXNativeTarget "TLCCiPhoneSermonEditor3" */;
+			buildPhases = (
+				48893E2E179E0F41002DDA52 /* Sources */,
+				48893E2F179E0F41002DDA52 /* Frameworks */,
+				48893E30179E0F41002DDA52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLCCiPhoneSermonEditor3;
+			productName = TLCCiPhoneSermonEditor3;
+			productReference = 48893E32179E0F41002DDA52 /* TLCCiPhoneSermonEditor3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48893E2A179E0F41002DDA52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ProCoreData;
+			};
+			buildConfigurationList = 48893E2D179E0F41002DDA52 /* Build configuration list for PBXProject "TLCCiPhoneSermonEditor3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48893E29179E0F41002DDA52;
+			productRefGroup = 48893E33179E0F41002DDA52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48893E31179E0F41002DDA52 /* TLCCiPhoneSermonEditor3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48893E30179E0F41002DDA52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48893E42179E0F41002DDA52 /* InfoPlist.strings in Resources */,
+				48893E4A179E0F41002DDA52 /* Default.png in Resources */,
+				48893E4C179E0F41002DDA52 /* Default@2x.png in Resources */,
+				48893E4E179E0F41002DDA52 /* Default-568h@2x.png in Resources */,
+				48893E64179E1057002DDA52 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48893E2E179E0F41002DDA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48893E44179E0F41002DDA52 /* main.m in Sources */,
+				48893E48179E0F41002DDA52 /* AppDelegate.m in Sources */,
+				48893E51179E0F41002DDA52 /* TLCCiPhoneSermonEditor3.xcdatamodeld in Sources */,
+				48893E5F179E0F7E002DDA52 /* SermonListViewController.m in Sources */,
+				48893E60179E0F7E002DDA52 /* SermonSeriesTableViewController.m in Sources */,
+				48893E61179E0F7E002DDA52 /* SermonSeriesViewController.m in Sources */,
+				48893E62179E0F7E002DDA52 /* SermonViewController.m in Sources */,
+				48893E67179E1421002DDA52 /* SermonDataModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48893E40179E0F41002DDA52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48893E41179E0F41002DDA52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48893E52179E0F41002DDA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48893E53179E0F41002DDA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48893E55179E0F41002DDA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TLCCiPhoneSermonEditor3/TLCCiPhoneSermonEditor3-Prefix.pch";
+				INFOPLIST_FILE = "TLCCiPhoneSermonEditor3/TLCCiPhoneSermonEditor3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48893E56179E0F41002DDA52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TLCCiPhoneSermonEditor3/TLCCiPhoneSermonEditor3-Prefix.pch";
+				INFOPLIST_FILE = "TLCCiPhoneSermonEditor3/TLCCiPhoneSermonEditor3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48893E2D179E0F41002DDA52 /* Build configuration list for PBXProject "TLCCiPhoneSermonEditor3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48893E52179E0F41002DDA52 /* Debug */,
+				48893E53179E0F41002DDA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48893E54179E0F41002DDA52 /* Build configuration list for PBXNativeTarget "TLCCiPhoneSermonEditor3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48893E55179E0F41002DDA52 /* Debug */,
+				48893E56179E0F41002DDA52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48893E4F179E0F41002DDA52 /* TLCCiPhoneSermonEditor3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48893E50179E0F41002DDA52 /* TLCCiPhoneSermonEditor3.xcdatamodel */,
+			);
+			currentVersion = 48893E50179E0F41002DDA52 /* TLCCiPhoneSermonEditor3.xcdatamodel */;
+			path = TLCCiPhoneSermonEditor3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		48893E65179E1421002DDA52 /* SermonDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48893E66179E1421002DDA52 /* SermonDataModel.xcdatamodel */,
+			);
+			currentVersion = 48893E66179E1421002DDA52 /* SermonDataModel.xcdatamodel */;
+			path = SermonDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48893E2A179E0F41002DDA52 /* Project object */;
+}
